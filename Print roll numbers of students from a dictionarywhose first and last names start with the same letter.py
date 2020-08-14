@@ -6,7 +6,6 @@ for i in range(size):
     f_name = input("Enter the first name of the student... ")
     l_name = input("Enter the last name of the student... ")
     student_dictionary[reg_no] = [f_name, l_name]
-temp = dict(student_dictionary)
 for i in student_dictionary:
     name = student_dictionary[i]
     if name[0][0] == name[1][0]:

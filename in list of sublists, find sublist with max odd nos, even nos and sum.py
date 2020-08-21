@@ -48,11 +48,5 @@ most_even = even_list.index(max(even_list))
 maximum = max_list.index(max(max_list))
 
 print ("The sublist with the most number of odd numbers is sublist ", most_odd+1) #since index starts from zero, the number of the list is + 1 
-print ("The sublist with the most number os even numbers is sublist ", most_even+1)
+print ("The sublist with the most number of even numbers is sublist ", most_even+1)
 print ("The sublist with the max sum of elements is sublist ", maximum+1)
-
-
-
-        
-
-    

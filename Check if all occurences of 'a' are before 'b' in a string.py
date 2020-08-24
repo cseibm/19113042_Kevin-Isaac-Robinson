@@ -28,7 +28,7 @@ def Solution(temp, a_c, b_c):
 
 
 import sys
-string = input()
+string = input("Enter a String... ")
 #To exit code if any characters other than 'a' or 'b' are present in the string
 for i in string:
     if i == 'a' or i =='b':

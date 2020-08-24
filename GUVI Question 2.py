@@ -6,7 +6,6 @@ HitsKey = {}
 multiply = 2
 for i in list:
     string = str(i)
-    length = len(string)
     sum = 0
     for j in string[0: : 2]:
         sum += int(j)

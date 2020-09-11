@@ -6,7 +6,7 @@ Created on Fri Sep  4 12:07:47 2020
 """
 
 
-write_file = open("input File.txt", "w") #Creating 'Input File.txt' in write mode
+write_file = open("Input File.txt", "w") #Creating 'Input File.txt' in write mode
 #Writing data into created file
 write_file.write("The line has 5 words\nwords in line2\nThis line has 7 words in it\nonly 3 words")
 write_file.close() #Closing file

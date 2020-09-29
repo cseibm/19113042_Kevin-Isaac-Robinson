@@ -23,7 +23,7 @@ n = int(input("Enter the number of objects... "))
 obj_list = []
 for i in range (n):
     age_list = []
-    print("Enter the ages for object ", i+1, "... ")
+    print("Enter the ages for object ", i+1, "... ", end = '')
     age_list= input()
     age_list = age_list.split()
     obj_list = list(age_list)

@@ -20,16 +20,15 @@ class list:
             return True
             
 n = int(input("Enter the number of objects... "))
-obj_list = []
+Obj_list = []
 for i in range (n):
     age_list = []
     print("Enter the ages for object ", i+1, "... ", end = '')
     age_list= input()
     age_list = age_list.split()
     obj_list = list(age_list)
-    if obj_list.check() == True:
-        obj_list.display()
+    Obj_list.append(obj_list) 
+    if Obj_list[i].check() == True:
+        Obj_list[i].display()
     else:
         print("No. of ages < 2\n")
-    
-    

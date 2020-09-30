@@ -26,8 +26,8 @@ for i in range (n):
     print("Enter the ages for object ", i+1, "... ", end = '')
     age_list= input()
     age_list = age_list.split()
-    obj_list = list(age_list)
-    Obj_list.append(obj_list) 
+    objct = list(age_list)
+    Obj_list.append(objct) 
     if Obj_list[i].check() == True:
         Obj_list[i].display()
     else:
